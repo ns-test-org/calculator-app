@@ -86,7 +86,7 @@ export default function Calculator() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-sm">
-        <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">Calculator</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">Coop&apos;s Calc</h1>
         
         {/* Display */}
         <div className="bg-gray-900 text-white p-4 rounded-lg mb-4 text-right text-2xl font-mono min-h-[60px] flex items-center justify-end">
@@ -217,4 +217,6 @@ export default function Calculator() {
     </div>
   );
 }
+
+
 

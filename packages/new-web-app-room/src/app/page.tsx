@@ -109,7 +109,7 @@ export default function Calculator() {
           {/* Row 1 */}
           <button
             onClick={clearAll}
-            className="col-span-2 bg-red-500 hover:bg-red-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="col-span-2 bg-purple-500 hover:bg-purple-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             Clear
           </button>
@@ -230,6 +230,7 @@ export default function Calculator() {
     </div>
   );
 }
+
 
 
 

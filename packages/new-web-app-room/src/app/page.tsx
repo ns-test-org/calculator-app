@@ -115,7 +115,7 @@ export default function Calculator() {
           </button>
           <button
             onClick={clearEntry}
-            className="bg-orange-400 hover:bg-orange-500 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-blue-400 hover:bg-blue-500 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             CE
           </button>
@@ -230,6 +230,7 @@ export default function Calculator() {
     </div>
   );
 }
+
 
 
 

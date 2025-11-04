@@ -95,12 +95,12 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center p-4">
-      <div className="bg-gradient-to-b from-orange-50 to-orange-100 rounded-lg shadow-xl p-6 w-full max-w-sm border border-orange-200">
-        <h1 className="text-2xl font-bold text-center mb-6 text-orange-800">Coop&apos;s Calc</h1>
+    <div className="min-h-screen bg-gradient-to-br from-orange-200 to-orange-300 flex items-center justify-center p-4">
+      <div className="bg-gradient-to-b from-orange-100 to-orange-200 rounded-lg shadow-xl p-6 w-full max-w-sm border border-orange-300">
+        <h1 className="text-2xl font-bold text-center mb-6 text-orange-900">Coop&apos;s Calc</h1>
         
         {/* Display */}
-        <div className="bg-gradient-to-r from-orange-800 to-orange-900 text-white p-4 rounded-lg mb-4 text-right text-2xl font-mono min-h-[60px] flex items-center justify-end shadow-inner">
+        <div className="bg-gradient-to-r from-orange-900 to-orange-950 text-white p-4 rounded-lg mb-4 text-right text-2xl font-mono min-h-[60px] flex items-center justify-end shadow-inner">
           {display}
         </div>
 
@@ -109,19 +109,19 @@ export default function Calculator() {
           {/* Row 1 */}
           <button
             onClick={clearAll}
-            className="col-span-2 bg-purple-500 hover:bg-purple-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="col-span-2 bg-red-500 hover:bg-red-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             Clear
           </button>
           <button
             onClick={clearEntry}
-            className="bg-orange-400 hover:bg-orange-500 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-500 hover:bg-orange-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             CE
           </button>
           <button
             onClick={() => inputOperation('÷')}
-            className="bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-700 hover:bg-orange-800 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             ÷
           </button>
@@ -129,25 +129,25 @@ export default function Calculator() {
           {/* Row 2 */}
           <button
             onClick={() => inputNumber('7')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             7
           </button>
           <button
             onClick={() => inputNumber('8')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             8
           </button>
           <button
             onClick={() => inputNumber('9')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             9
           </button>
           <button
             onClick={() => inputOperation('×')}
-            className="bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-700 hover:bg-orange-800 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             ×
           </button>
@@ -155,25 +155,25 @@ export default function Calculator() {
           {/* Row 3 */}
           <button
             onClick={() => inputNumber('4')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             4
           </button>
           <button
             onClick={() => inputNumber('5')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             5
           </button>
           <button
             onClick={() => inputNumber('6')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             6
           </button>
           <button
             onClick={() => inputOperation('-')}
-            className="bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-700 hover:bg-orange-800 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             -
           </button>
@@ -181,25 +181,25 @@ export default function Calculator() {
           {/* Row 4 */}
           <button
             onClick={() => inputNumber('1')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             1
           </button>
           <button
             onClick={() => inputNumber('2')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             2
           </button>
           <button
             onClick={() => inputNumber('3')}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             3
           </button>
           <button
             onClick={() => inputOperation('+')}
-            className="bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-700 hover:bg-orange-800 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             +
           </button>
@@ -207,19 +207,19 @@ export default function Calculator() {
           {/* Row 5 */}
           <button
             onClick={() => inputNumber('0')}
-            className="col-span-2 bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-3 px-4 rounded-lg transition-colors"
+            className="col-span-2 bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             0
           </button>
           <button
             onClick={inputDecimal}
-            className="bg-orange-200 hover:bg-orange-300 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-orange-300 hover:bg-orange-400 hover:scale-105 text-orange-900 font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             .
           </button>
           <button
             onClick={performCalculation}
-            className={`bg-green-500 hover:bg-green-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg ${
+            className={`bg-orange-600 hover:bg-orange-700 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg ${
               isWiggling ? 'animate-wiggle' : ''
             }`}
           >
@@ -230,22 +230,3 @@ export default function Calculator() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

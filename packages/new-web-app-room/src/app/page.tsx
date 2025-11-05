@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import AnimatedGrid from './components/AnimatedGrid';
 
 export default function Calculator() {
   const [display, setDisplay] = useState('0');
@@ -95,8 +96,9 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center p-4">
-      <div className="bg-gradient-to-b from-orange-50 to-orange-100 rounded-lg shadow-xl p-6 w-full max-w-sm border border-orange-200">
+    <div className="min-h-screen relative flex items-center justify-center p-4">
+      <AnimatedGrid />
+      <div className="bg-gradient-to-b from-orange-50 to-orange-100 rounded-lg shadow-xl p-6 w-full max-w-sm border border-orange-200 relative z-10">
         <h1 className="text-2xl font-bold text-center mb-6 text-purple-600">Calculator</h1>
         
         {/* Display */}
@@ -230,6 +232,9 @@ export default function Calculator() {
     </div>
   );
 }
+
+
+
 
 
 

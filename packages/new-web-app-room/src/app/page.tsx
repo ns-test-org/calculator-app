@@ -97,7 +97,7 @@ export default function Calculator() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center p-4">
       <div className="bg-gradient-to-b from-orange-50 to-orange-100 rounded-lg shadow-xl p-6 w-full max-w-sm border border-orange-200">
-        <h1 className="text-2xl font-bold text-center mb-6 text-orange-800">Coop&apos;s Calc</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-purple-600">Calculator</h1>
         
         {/* Display */}
         <div className="bg-gradient-to-r from-orange-800 to-orange-900 text-white p-4 rounded-lg mb-4 text-right text-2xl font-mono min-h-[60px] flex items-center justify-end shadow-inner">
@@ -115,7 +115,7 @@ export default function Calculator() {
           </button>
           <button
             onClick={clearEntry}
-            className="bg-orange-400 hover:bg-orange-500 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            className="bg-blue-400 hover:bg-blue-500 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
           >
             CE
           </button>
@@ -230,6 +230,9 @@ export default function Calculator() {
     </div>
   );
 }
+
+
+
 
 
 

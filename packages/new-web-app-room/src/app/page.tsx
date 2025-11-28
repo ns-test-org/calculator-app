@@ -221,7 +221,7 @@ export default function Calculator() {
           </button>
           <button
             onClick={performCalculation}
-            className={`bg-green-500 hover:bg-green-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg ${
+            className={`bg-purple-500 hover:bg-purple-600 hover:scale-105 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg ${
               isWiggling ? 'animate-wiggle' : ''
             }`}
           >
@@ -232,6 +232,7 @@ export default function Calculator() {
     </div>
   );
 }
+
 
 
 
